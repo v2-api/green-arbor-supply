@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Arbor Supply</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .product {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 40px;
+            align-items: flex-start;
+        }
+
+        .product img {
+            width: 250px;
+            border: 1px solid #a9c4a9;
+            flex-shrink: 0;
+        }
+
+        .product h3 {
+            margin-top: 0;
+            font-weight: normal;
+            color: #2f5d2f;
+        }
+
+        @media (max-width: 700px) {
+            .product {
+                flex-direction: column;
+            }
+
+            .product img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Green Arbor Supply</h1>
+        <div class="tagline">
+            Fertilizer and Landscape Supplies for Ann Arbor and Southeast Michigan
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/products">Products</a>
+            <a href="/blog">Blog</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <h2>Products</h2>
+    <div class="product">
+        <img src="https://picsum.photos/400/300?random=1" alt="Bulk Fertilizer">
+        <div>
+            <h3>Fertilizer 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam necessitatibus libero sint maxime eos doloremque accusamus corporis illum unde ex rerum sit aut soluta cumque, praesentium tempora ut quae?
+            </p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://picsum.photos/400/300?random=2" alt="Starter Fertilizer">
+        <div>
+            <h3>Fertilizer 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aperiam harum nesciunt optio, temporibus repellendus, ducimus placeat assumenda vel explicabo laudantium architecto itaque, sint repellat facilis quaerat excepturi tempore? Sit.
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        © 2026 Green Arbor Supply • Ann Arbor, Michigan • <a href="/privacy">Privacy</a>
+    </div>
+</div>
+</body>
+</html>
